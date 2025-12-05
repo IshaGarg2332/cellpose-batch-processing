@@ -1,0 +1,9 @@
+These are the codes that you will need to put into miniforge so that the images can be processed
+1. cellpose_run.py 
+python Users\{Location of the cellpose_run.py code} “C:\Users{Location of the folder with the images that need to be processed}” “C:\Users{Location of the folder where you would like the processed images to be located}
+
+2. updatecells1.py
+python “C:\Users\{Location of the updatecells1.py code}” “C:\Users{Location of the new folder where you put the images processed by cellpose_run.py}” “C:\Users{Location of the folder where you would like the new document to be located}
+
+3. copyc2.py
+python “C:\Users\{Location of the copyc2.py code}” “C:\Users{Location of the folder with the original images}” “C:\Users{Location of the folder where the processed images are located}
