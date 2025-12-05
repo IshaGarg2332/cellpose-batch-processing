@@ -1,0 +1,40 @@
+Instructions
+1. Open Notepad on a computer
+2. Copy paste the code for cellpose_run.py that is above. Make sure that the code starts from “import numpy as np” and ends at “batch_process_all_folders(root_input_dir, root_output_dir, model_path)”
+3. Change the model_path based on where the Cyto2 custom model is located on your computer
+4. It is the line that states “NEEDS CHANGING”
+5. Click “File” in the top left corner and then click “Save as”
+6. Save the notepad file to any desired location. Remember where you saved it!
+7. Make sure to save it as cellpose_run.py
+8. You can save it as something else but then the next steps become a little more complex
+9. Then, open a blank notepad file. You can do this by clicking the “+” at the top of the current Notepad. 
+10. In the blank notepad file, copy paste the code for updatecells1.py. Make sure that the code starts from “import os” and ends at “batch_generate_docx(root_input_folder, output_folder)”
+11. Click “File” in the top left corner and then click “Save as”
+12. Save the notepad file to any desired location. Remember where you saved it!
+13. Make sure to save it as updatecells1.py
+14. You can save it as something else but then the next steps become a little more complex
+15. Then, open another blank notepad file. You can do this by clicking the “+” at the top of the current Notepad. 
+16. In the blank notepad file, copy paste the code for copyc2.py. Make sure that the code starts from “import os” and ends at “copy_all_c2_files(sys.argv[1], sys.argv[2])”
+17. Click “File” in the top left corner and then click “Save as”
+18. Save the notepad file to any desired location. Remember where you saved it!
+19. Make sure to save it as copyc2.py
+20. You can save it as something else but then the next steps become a little more complex
+21. Now close out of Notepad
+22. Open Miniforge Prompt
+23. Make sure that cellpose has already been installed and python has already been installed! 
+24. Enter in the terminal code for cellpose_run mentioned above into Miniforge
+25. Then, run cellpose
+26. In the cellpose GUI, open one of the c1 files
+27. Check to make sure the proper cells have been highlighted and highlight any more that you can see
+28. IMPORTANT: DO NOT HIT SAVE
+29. Then, use the right arrow key to move onto the next file in the folder. Check to make sure the proper cells have been highlighted. Keep going until all the cells in the folder have been checked. 
+30. You can check through one FOV folder and then move onto the next step or you could check through one whole mouse and then move onto the next step
+31. Doing one whole mouse at a time is faster but it is up to you!
+32. Close out of cellpose
+33. Go back to Miniforge Prompt
+34. Enter in the terminal code for updatecells1.py mentioned above into Miniforge
+35. Enter in the terminal code for copyc2.py mentioned above into Miniforge
+36. You’re done!
+37. Then you can run MATLAB, save them to OneDrive, or move onto the next mouse!
+
+
